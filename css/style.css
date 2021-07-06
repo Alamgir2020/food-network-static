@@ -1,0 +1,147 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.welcome {
+  display: flex;
+  /* background-color: DodgerBlue; */
+  margin: 3%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.half-width > p {
+  font-size: 1rem;
+}
+
+.half-width > h1,
+.half-width > h2,
+.welcome .half-width > p {
+  color: rgb(102, 102, 102);
+
+  margin: 50px;
+}
+
+.half-width > p {
+  margin: 100px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: rgb(102, 102, 102);
+}
+
+h3 {
+  font-size: 150%;
+}
+
+#about-heading {
+  margin: 100px 0 0 100px;
+  font-size: 2rem;
+}
+
+.orange-color {
+  color: orange;
+}
+
+.button {
+  text-decoration: none;
+  /* background-color: orange; */
+  padding: 20px 40px;
+  border-radius: 50px;
+  background-image: linear-gradient(
+    to right,
+    rgb(252, 143, 74),
+    rgb(253, 77, 47)
+  );
+}
+
+.about {
+  display: flex;
+  background-image: url("../images/7.png");
+  /* width: 100%; */
+  /* background-repeat: no-repeat; */
+  margin: 0px;
+}
+
+.personImage {
+  height: 500px;
+  margin-left: 200px;
+  padding-top: 50px;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.myrecipe {
+  text-align: center;
+  margin: 0 20% 0 20%;
+}
+
+.flexible {
+  display: flex;
+}
+
+.smallImage {
+  width: 300px;
+  padding: 0;
+}
+
+.smallImageDiv {
+  /* padding: 5%; */
+}
+
+.myRecipeSection {
+  margin: 5%;
+}
+
+.shadow {
+  /* box-shadow: 5px 10px 18px #888888; */
+  box-shadow: 1px 1px 30px #888888;
+  border-radius: 30px;
+  margin: 2%;
+  /* padding: 5%; */
+}
+.image-box {
+  padding: 15px;
+}
+.follower {
+  padding: 0 20% 0 20%;
+  text-align: left;
+}
+
+footer {
+  background-color: rgb(11, 14, 23);
+  text-align: center;
+}
+
+footer > h2 {
+  padding: 3% 0 0 0;
+  color: rgb(102, 102, 102);
+}
+footer > h2 > span {
+  background: #fa974b;
+  background: -webkit-linear-gradient(to right, #fa974b 0%, #cf6515 100%);
+  background: -moz-linear-gradient(to right, #fa974b 0%, #cf6515 100%);
+  background: linear-gradient(to right, #fa974b 0%, #cf6515 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer > p {
+  padding: 0 0 7% 0;
+  color: aliceblue;
+}
+
+.shadow > .flexible > div {
+  width: 33%;
+  padding: 3%;
+  text-align: center;
+}
+
+.follower-section {
+  margin: 7%;
+}
